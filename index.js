@@ -4,7 +4,7 @@ let substitutionPairs;
 let substitutionName = "Spire Script";
 let tableSubmitted = false;
 fetchPresets();
-const squeak = new Audio("media/speak.mp3");
+const squeak = new Audio("assets/speak.mp3");
 
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById("frm1").addEventListener("submit", function(e) {
@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
     let octopus = document.getElementById("octo");
     octopus.addEventListener("click", function(e) {
-        octopus.src="media/octo-frames/octo2.png";
+        octopus.src="assets/octo-frames/octo2.png";
         playSqueak();
-        setTimeout(() => { octopus.src="media/octo-frames/octo1.png"; }, 250);
+        setTimeout(() => { octopus.src="assets/octo-frames/octo1.png"; }, 250);
     });
 
     document.getElementById('cScriptTable').addEventListener("input", function(e){
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 async function fetchPresets(){
-    response = await fetch("./media/ScriptPresets.json");
+    response = await fetch("./assets/ScriptPresets.json");
     presets = await response.json();
     substitutionPairs = presets.Spire.substitutions; //spire is default preset
 }
@@ -168,7 +168,7 @@ function addColumn(){
     newCell.classList="cellSub sub"
 
     newCell = table.rows[2].insertCell(colCount);
-    newCell.innerHTML="<button class='deleteBtn optBtn' onclick='handleDel(this)'><img src='media/deleteIcon.png'></button><button class='resetBtn optBtn' onclick='handleReset(this)'><img src='media/resetIcon.png'></button>";
+    newCell.innerHTML="<button class='deleteBtn optBtn' onclick='handleDel(this)'><img src='assets/deleteIcon.png'></button><button class='resetBtn optBtn' onclick='handleReset(this)'><img src='assets/resetIcon.png'></button>";
     newCell.classList="cellOpt";
 }
 
