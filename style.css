@@ -1,0 +1,112 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(202, 187, 249);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(0deg, #a6f4fd73 0%, rgba(142, 90, 226, 0.04) 50%, #bbeafe85 100%), url("./assets/pattern.svg");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+#frm1 input{
+    margin-right: 19px;
+}
+#frm1{
+    max-width: 400px;
+}
+#result{
+    visibility: hidden;
+    width:100%;
+    max-width: 400px;
+}
+textarea{
+    width: 95%;
+}
+#result-p{
+    height: 180px;
+}
+#octopus-container{
+    width:100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+#octopus-container img{
+    width: 40px;
+}
+
+.selected{
+    background-color: #b089ff !important;
+    border-radius: 5px !important;
+    color: #04023b !important;
+    font-weight: bold;
+}
+
+button, input{
+    background-color: #c0dcfc;
+    color: #270984;
+    border-radius: 10px;
+}
+
+table, td,th{
+    border:#13114e solid 3px;
+    border-collapse: collapse;
+}
+table{
+    margin: 10px;
+}
+td{
+	min-width:25px;
+    text-align:center;
+    padding:2px 5px 2px 5px;
+}
+th{
+    text-align: right;
+    padding:2px 5px 2px 5px;
+}
+
+#CustomScriptContainer{
+    display:none;
+}
+
+#cScriptTableCont{
+    overflow-x: scroll;
+    padding:0 2px 2px 0;
+}
+
+.optionsRow{
+    font-size: 15px;
+    line-height: 11.6px;
+}
+.cellOpt{
+    padding: 0;
+    align-items:end;
+    height:0px;
+}
+.cellOpt img{
+    height:10px;
+}
+.cellOpt button{
+    border-radius: 0;
+    padding:3px 4px 2px 3px;
+    border:0;
+    line-height: 10px;
+    width:50%;
+}
+.deleteBtn{
+    background-color:rgb(255, 131, 158);
+}
+.resetBtn{
+    background-color:rgb(162, 221, 255);
+}
+#submissionError, #customMessage{
+    display:none;
+    font-style: italic;
+    margin:2px;
+}
+#customMessage{
+    font-size: small;
+    font-weight: normal;
+}

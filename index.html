@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substitution Tool</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/octo.gif">
+</head>
+
+<body>
+    <h1>Substitution tool</h1>
+    <div id="PresetContainer">
+        <button id="Spire" class="selected">Spire</button>
+        <button id="Lobby">Lobby</button>
+        <button id="Arch">Arch</button>
+        <!--<button id="Hook">Hook</button>-->
+        <button id="Gothic">Gothic</button>
+        <button id="Geometric">Geometric</button>
+        <!--<button id="Swerve">Swerve</button>-->
+        <button id="Custom">Custom</button>
+    </div>
+    <div id="CustomScriptContainer">
+        <div id="cScriptTableCont">
+            <table id="cScriptTable">
+                <tr>
+                    <th>Shorthand</th> <!-- potential issue: user can use more than 1 letter in the "Shorthand" cells. this will completely fuck up the substitution algorithm. find a way to prevent them from puttin more than one letter... surprisingly difficult with contenteditable -->
+                    <td contenteditable="true" class="shorthandSub sub"></td>
+                </tr>
+                <tr>
+                    <th>Cell</th>
+                    <td contenteditable="true" class="cellSub sub"></td>
+                </tr>
+                <tr class="optionsRow">
+                    <th>Options</th>
+                    <td class="cellOpt"><button class="deleteBtn optBtn" onclick="handleDel(this)"><img src="assets/deleteIcon.png"></button><button class="resetBtn optBtn" onclick='handleReset(this)'><img src="assets/resetIcon.png"></button></td>
+                </tr>
+            </table>
+        </div>
+        <button type="button" onclick="addColumn()">Add Column</button>
+        <button class="submitBtn" type="submit" onclick="processSubDataSubmit()">Submit Data</button>
+        <!--<div id="jsonOptions">
+            <h3>Submitted substitution data options</h3>
+            <button type="button">Copy as JSON</button>
+            <button type="button">Save as JSON</button>
+            <button type="button">Paste JSON</button>
+            <button type="button">Upload JSON</button>
+        </div>--> <!--im trying to make it less of a pain in the ass to use custom shorthand. maybe i'll let users upload an additional doc like ScriptPresets.json and make those buttons idk-->
+        <p id="submissionError"></p>
+    </div>
+    <h2>Shorthand input</h2>
+    <form id="frm1">
+        <textarea name="userInput"></textarea>
+        <input class="submitBtn" type="submit" value="Submit">
+    </form>
+    <div id="result">
+        <h2>Substituted output<a id="customMessage"> </a></h2>
+        <div>
+            <textarea readonly="true" id="result-p"></textarea>
+            <input type="button" id="copyButton" onClick="copyText()" value="Copy text">
+        </div>
+        <div id="octopus-container">
+            <img src="assets/octo-frames/octo1.png" alt="A happy octoling" id="octo">
+        </div>
+    </div>
+</body>
+</html>
