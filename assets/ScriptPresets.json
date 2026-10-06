@@ -68,8 +68,8 @@
       {"id":43, "shorthand": "Z", "cell": "AF12"}
     ]
   },
-  "Arch": {
-    "name": "Arch Script",
+  "Swerve": {
+    "name": "Swerve Script",
     "substitutions": [
       {"id":0, "shorthand": "a", "cell": "C7"},
       {"id":1, "shorthand": "b", "cell": "D7"},
@@ -174,8 +174,8 @@
       {"id":25, "shorthand": "I", "cell": "O11"}
     ]
   },
-  "Swerve": {
-    "name": "Swerve Script",
+  "ScriptB": {
+    "name": "ScriptB Script",
     "substitutions": [
       {"id":0, "shorthand": "a", "cell": "C7"}
     ]

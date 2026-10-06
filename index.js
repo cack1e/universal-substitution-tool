@@ -50,8 +50,8 @@ function setPreset(presetName){ //make it so when the buttons are pressed it cha
         case "Lobby":
             substitutionPairs = presets.Lobby.substitutions;
             break;
-        case "Arch": //previously "Regular Swerve Script"
-            substitutionPairs = presets.Arch.substitutions;
+        case "Swerve": //previously "Regular Swerve Script"
+            substitutionPairs = presets.Swerve.substitutions;
             break;
         case "Hook": //previously oval swerve script
             substitutionPairs = presets.Hook.substitutions;
@@ -62,8 +62,8 @@ function setPreset(presetName){ //make it so when the buttons are pressed it cha
         case "Geometric":
             substitutionPairs = presets.Geometric.substitutions;
             break;
-        case "Swerve": //"Script B/ Squiggle script from erika's findings"
-            substitutionPairs = presets.Swerve.substitutions;
+        case "ScriptB": //"Script B/ Squiggle script from erika's findings"
+            substitutionPairs = presets.ScriptB.substitutions;
             break;
         case "Custom": //CUSTOM CELLS AND SHORTHAND
             customContainer.style.display="block";
