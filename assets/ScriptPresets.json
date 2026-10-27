@@ -191,15 +191,15 @@
       {"id":5, "shorthand": "K", "cell": "H7"},
       {"id":6, "shorthand": "M", "cell": "I7"},
       {"id":7, "shorthand": "N", "cell": "J7"},
-      {"id":8, "shorthand": "G", "cell": "C7"},
-      {"id":9, "shorthand": "A", "cell": "D7"},
-      {"id":10, "shorthand": "C", "cell": "E7"},
-      {"id":11, "shorthand": "H", "cell": "F7"},
-      {"id":12, "shorthand": "X", "cell": "G7"},
-      {"id":13, "shorthand": "T", "cell": "H7"},
-      {"id":14, "shorthand": "Q", "cell": "I7"},
-      {"id":15, "shorthand": "I", "cell": "J7"},
-      {"id":16, "shorthand": "1", "cell": "K7"}
+      {"id":8, "shorthand": "G", "cell": "C10"},
+      {"id":9, "shorthand": "A", "cell": "D10"},
+      {"id":10, "shorthand": "C", "cell": "E10"},
+      {"id":11, "shorthand": "H", "cell": "F10"},
+      {"id":12, "shorthand": "X", "cell": "G10"},
+      {"id":13, "shorthand": "T", "cell": "H10"},
+      {"id":14, "shorthand": "Q", "cell": "I10"},
+      {"id":15, "shorthand": "I", "cell": "J10"},
+      {"id":16, "shorthand": "1", "cell": "K10"}
     ]
   }
 }
