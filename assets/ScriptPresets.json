@@ -118,14 +118,14 @@
       {"id":3, "shorthand": "d", "cell": "F7"},
       {"id":4, "shorthand": "e", "cell": "G7"},
       {"id":5, "shorthand": "f", "cell": "H7"},
-      {"id":6, "shorthand": "g", "cell": "J7"},
-      {"id":7, "shorthand": "h", "cell": "K7"},
-      {"id":8, "shorthand": "i", "cell": "L7"},
-      {"id":9, "shorthand": "j", "cell": "M7"},
-      {"id":10, "shorthand": "k", "cell": "N7"},
-      {"id":11, "shorthand": "l", "cell": "O7"},
-      {"id":12, "shorthand": "m", "cell": "P7"},
-      {"id":13, "shorthand": "n", "cell": "Q7"},
+      {"id":6, "shorthand": "g", "cell": "I7"},
+      {"id":7, "shorthand": "h", "cell": "J7"},
+      {"id":8, "shorthand": "i", "cell": "K7"},
+      {"id":9, "shorthand": "j", "cell": "L7"},
+      {"id":10, "shorthand": "k", "cell": "M7"},
+      {"id":11, "shorthand": "l", "cell": "N7"},
+      {"id":12, "shorthand": "m", "cell": "O7"},
+      {"id":13, "shorthand": "n", "cell": "P7"},
       {"id":14, "shorthand": "o", "cell": "C11"},
       {"id":15, "shorthand": "p", "cell": "D11"},
       {"id":16, "shorthand": "q", "cell": "E11"},
@@ -174,10 +174,32 @@
       {"id":25, "shorthand": "I", "cell": "O11"}
     ]
   },
+  "Tangle": {
+    "name": "Tangle Script",
+    "substitutions": [
+      {"id":0, "shorthand": "a", "cell": "C7"}
+    ]
+  },
   "ScriptB": {
     "name": "ScriptB Script",
     "substitutions": [
-      {"id":0, "shorthand": "a", "cell": "C7"}
+      {"id":0, "shorthand": "S", "cell": "C7"},
+      {"id":1, "shorthand": "H", "cell": "D7"},
+      {"id":2, "shorthand": "R", "cell": "E7"},
+      {"id":3, "shorthand": "W", "cell": "F7"},
+      {"id":4, "shorthand": "Z", "cell": "G7"},
+      {"id":5, "shorthand": "K", "cell": "H7"},
+      {"id":6, "shorthand": "M", "cell": "I7"},
+      {"id":7, "shorthand": "N", "cell": "J7"},
+      {"id":8, "shorthand": "G", "cell": "C7"},
+      {"id":9, "shorthand": "A", "cell": "D7"},
+      {"id":10, "shorthand": "C", "cell": "E7"},
+      {"id":11, "shorthand": "H", "cell": "F7"},
+      {"id":12, "shorthand": "X", "cell": "G7"},
+      {"id":13, "shorthand": "T", "cell": "H7"},
+      {"id":14, "shorthand": "Q", "cell": "I7"},
+      {"id":15, "shorthand": "I", "cell": "J7"},
+      {"id":16, "shorthand": "1", "cell": "K7"}
     ]
   }
 }
