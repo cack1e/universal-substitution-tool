@@ -199,7 +199,7 @@
       {"id":13, "shorthand": "T", "cell": "H10"},
       {"id":14, "shorthand": "Q", "cell": "I10"},
       {"id":15, "shorthand": "I", "cell": "J10"},
-      {"id":16, "shorthand": "1", "cell": "K10"}
+      {"id":16, "shorthand": "!", "cell": "K10"}
     ]
   }
 }
