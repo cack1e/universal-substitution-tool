@@ -3,6 +3,7 @@ let presets;
 let substitutionPairs;
 let substitutionName = "Spire Script";
 let tableSubmitted = false;
+let caseSensitive = true;
 fetchPresets();
 const squeak = new Audio("assets/speak.mp3");
 
@@ -46,28 +47,36 @@ function setPreset(presetName){ //make it so when the buttons are pressed it cha
     switch (presetName) {
         case "Spire":
             substitutionPairs = presets.Spire.substitutions;
+            caseSensitive = true;
             break;
         case "Lobby":
             substitutionPairs = presets.Lobby.substitutions;
+            caseSensitive = true;
             break;
         case "Swerve": //previously "Regular Swerve Script"
             substitutionPairs = presets.Swerve.substitutions;
+            caseSensitive = true;
             break;
         case "Hook": //previously oval swerve script
             substitutionPairs = presets.Hook.substitutions;
+            caseSensitive = false;
             break;
         case "Gothic":
             substitutionPairs = presets.Gothic.substitutions;
+            caseSensitive = true;
             break;
         case "Geometric":
             substitutionPairs = presets.Geometric.substitutions;
+            caseSensitive = false;
             break;
         case "ScriptB": //"Script B/ Squiggle script from erika's findings"
             substitutionPairs = presets.ScriptB.substitutions;
+            caseSensitive = false;
             break;
         case "Custom": //CUSTOM CELLS AND SHORTHAND
             customContainer.style.display="block";
             substitutionPairs = [];
+            caseSensitive = true;
             break;
         default:
             break;
@@ -96,6 +105,12 @@ function sanitizeInput(unsanitized){ //this removed quotes wrapping entire input
     while(forbiddenQuotes.includes(unsanitized[0]) && forbiddenQuotes.includes(unsanitized.slice(-1))){
         unsanitized = unsanitized.slice(1,-1);
     }
+    
+    if(!caseSensitive){
+        let toCaps = unsanitized.toUpperCase();
+        unsanitized = toCaps;
+    }
+
     return unsanitized.trim();
 }
 
