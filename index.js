@@ -107,8 +107,6 @@ function sanitizeInput(unsanitized){ //this removed quotes wrapping entire input
     }
     
     if(!caseSensitive){
-        console.log("NOT CASE SENSITIVE!!!");
-        console.log(unsanitized)
         let toCaps = unsanitized.toUpperCase();
         unsanitized = toCaps;
     }
