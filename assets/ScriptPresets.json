@@ -177,7 +177,28 @@
   "Tangle": {
     "name": "Tangle Script",
     "substitutions": [
-      {"id":0, "shorthand": "a", "cell": "C7"}
+      {"id":0, "shorthand": "U", "cell": "C7"},
+      {"id":1, "shorthand": "A", "cell": "D7"},
+      {"id":2, "shorthand": "N", "cell": "E7"},
+      {"id":3, "shorthand": "O", "cell": "F7"},
+      {"id":4, "shorthand": "L", "cell": "G7"},
+      {"id":5, "shorthand": "C", "cell": "H7"},
+      {"id":6, "shorthand": "E", "cell": "I7"},
+      {"id":7, "shorthand": "J", "cell": "J7"},
+      {"id":8, "shorthand": "I", "cell": "K7"},
+      {"id":9, "shorthand": "M", "cell": "L7"},
+      {"id":10, "shorthand": "G", "cell": "M7"},
+      {"id":11, "shorthand": "F", "cell": "C11"},
+      {"id":12, "shorthand": "P", "cell": "D11"},
+	  {"id":13, "shorthand": "Q", "cell": "E11"},
+      {"id":14, "shorthand": "S", "cell": "F11"},
+      {"id":15, "shorthand": "R", "cell": "G11"},
+      {"id":16, "shorthand": "X", "cell": "H11"},
+      {"id":17, "shorthand": "W", "cell": "I11"},
+      {"id":18, "shorthand": "V", "cell": "J11"},
+      {"id":19, "shorthand": "K", "cell": "K11"},
+      {"id":20, "shorthand": "Y", "cell": "L11"},
+      {"id":21, "shorthand": "H", "cell": "M11"}
     ]
   },
   "ScriptB": {
