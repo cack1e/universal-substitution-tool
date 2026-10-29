@@ -73,6 +73,10 @@ function setPreset(presetName){ //make it so when the buttons are pressed it cha
             substitutionPairs = presets.ScriptB.substitutions;
             caseSensitive = false;
             break;
+        case "Tangle":
+            substitutionPairs = presets.Tangle.substitutions;
+            caseSensitive = false;
+            break;
         case "Custom": //CUSTOM CELLS AND SHORTHAND
             customContainer.style.display="block";
             substitutionPairs = [];
