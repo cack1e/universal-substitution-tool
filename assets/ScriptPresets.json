@@ -199,8 +199,8 @@
       {"id":19, "shorthand": "U", "cell": "J11"},
       {"id":20, "shorthand": "V", "cell": "K11"},
       {"id":21, "shorthand": "W", "cell": "L11"},
-      {"id":20, "shorthand": "X", "cell": "M11"},
-      {"id":21, "shorthand": "Y", "cell": "N11"}
+      {"id":22, "shorthand": "X", "cell": "M11"},
+      {"id":23, "shorthand": "Y", "cell": "N11"}
     ]
   },
   "ScriptB": {
