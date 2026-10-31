@@ -190,7 +190,7 @@
       {"id":10, "shorthand": "L", "cell": "M7"},
       {"id":11, "shorthand": "M", "cell": "N7"},
       {"id":12, "shorthand": "N", "cell": "C11"},
-	    {"id":13, "shorthand": "O", "cell": "D11"},
+      {"id":13, "shorthand": "O", "cell": "D11"},
       {"id":14, "shorthand": "P", "cell": "E11"},
       {"id":15, "shorthand": "Q", "cell": "F11"},
       {"id":16, "shorthand": "R", "cell": "G11"},
