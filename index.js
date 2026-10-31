@@ -44,6 +44,7 @@ async function fetchPresets(){
 function setPreset(presetName){ //make it so when the buttons are pressed it changes the preset
     let customContainer = document.getElementById('CustomScriptContainer');
     customContainer.style.display = "none";
+    console.log(presetName);
     switch (presetName) {
         case "Spire":
             substitutionPairs = presets.Spire.substitutions;
@@ -58,7 +59,9 @@ function setPreset(presetName){ //make it so when the buttons are pressed it cha
             caseSensitive = true;
             break;
         case "Hook": //previously oval swerve script
+            console.log("hooked!!");
             substitutionPairs = presets.Hook.substitutions;
+            console.log(substitutionPairs);
             caseSensitive = false;
             break;
         case "Gothic":

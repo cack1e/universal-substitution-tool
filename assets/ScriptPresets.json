@@ -106,7 +106,32 @@
   "Hook": {
     "name": "Hook Script",
     "substitutions": [
-      {"id":0, "shorthand": "a", "cell": "C7"}
+      {"id":0, "shorthand": "A", "cell": "C7"},
+      {"id":1, "shorthand": "B", "cell": "D7"},
+      {"id":2, "shorthand": "C", "cell": "E7"},
+      {"id":3, "shorthand": "D", "cell": "F7"},
+      {"id":4, "shorthand": "E", "cell": "G7"},
+      {"id":5, "shorthand": "F", "cell": "H7"},
+      {"id":6, "shorthand": "G", "cell": "I7"},
+      {"id":7, "shorthand": "H", "cell": "J7"},
+      {"id":8, "shorthand": "I", "cell": "K7"},
+      {"id":9, "shorthand": "J", "cell": "L7"},
+      {"id":10, "shorthand": "K", "cell": "M7"},
+      {"id":11, "shorthand": "L", "cell": "N7"},
+      {"id":12, "shorthand": "M", "cell": "O7"},
+      {"id":13, "shorthand": "N", "cell": "C11"},
+      {"id":14, "shorthand": "O", "cell": "D11"},
+      {"id":15, "shorthand": "P", "cell": "E11"},
+      {"id":16, "shorthand": "Q", "cell": "F11"},
+      {"id":17, "shorthand": "R", "cell": "G11"},
+      {"id":18, "shorthand": "S", "cell": "H11"},
+      {"id":19, "shorthand": "T", "cell": "I11"},
+      {"id":20, "shorthand": "U", "cell": "J11"},
+      {"id":21, "shorthand": "V", "cell": "K11"},
+      {"id":22, "shorthand": "W", "cell": "L11"},
+      {"id":23, "shorthand": "X", "cell": "M11"},
+      {"id":24, "shorthand": "Y", "cell": "N11"},
+      {"id":25, "shorthand": "Z", "cell": "O11"}
     ]
   },
   "Gothic": {
